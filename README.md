@@ -1,6 +1,6 @@
-# AWS Serverless Application with .NET
+# AWS Serverless Application with .NET Core
 
-A practical reference implementation demonstrating how to build scalable, maintainable, and cost-effective serverless applications using .NET and AWS cloud services.
+A practical reference implementation demonstrating how to build scalable, maintainable, and cost-effective serverless applications using .NET Core and AWS cloud services.
 
 This project showcases serverless application development using AWS Lambda, API Gateway, Amazon SQS, Amazon RDS (MySQL), and Dapper, following a clean, layered architecture with a strong focus on separation of concerns, dependency injection, and maintainable application design.
 
@@ -21,7 +21,7 @@ The solution follows a layered architecture that separates AWS-specific executio
 | Category | Technologies |
 |---|---|
 | Language | C# |
-| Framework | .NET |
+| Framework | .NET Core |
 | Compute | AWS Lambda |
 | API | Amazon API Gateway |
 | Messaging | Amazon SQS |
