@@ -1,0 +1,22 @@
+<Solution>
+  <Folder Name="/ProjectName.Microservices/" />
+  <Folder Name="/ProjectName.Microservices/ProjectName.AccountService/">
+    <Project Path="ProjectName.AccountService/ProjectName.AccountService.Api/ProjectName.AccountService.Api.csproj" />
+    <Project Path="ProjectName.AccountService/ProjectName.AccountService.Application/ProjectName.AccountService.Application.csproj" />
+    <Project Path="ProjectName.AccountService/ProjectName.AccountService.Domain/ProjectName.AccountService.Domain.csproj" />
+    <Project Path="ProjectName.AccountService/ProjectName.AccountService.Repository/ProjectName.AccountService.Repository.csproj" />
+  </Folder>
+  <Folder Name="/ProjectName.Microservices/ProjectName.AdminService/">
+    <Project Path="ProjectName.AdminService/ProjectName.AdminService.Api/ProjectName.AdminService.Api.csproj" />
+    <Project Path="ProjectName.AdminService/ProjectName.AdminService.Application/ProjectName.AdminService.Application.csproj" />
+    <Project Path="ProjectName.AdminService/ProjectName.AdminService.Domain/ProjectName.AdminService.Domain.csproj" />
+    <Project Path="ProjectName.AdminService/ProjectName.AdminService.Repository/ProjectName.AdminService.Repository.csproj" />
+  </Folder>
+  <Folder Name="/ProjectName.Tests/">
+    <Project Path="ProjectName.Tests/ProjectName.AccountService.IntegrationTests/ProjectName.AccountService.IntegrationTests.csproj" />
+    <Project Path="ProjectName.Tests/ProjectName.AccountService.Tests/ProjectName.AccountService.Tests.csproj" />
+    <Project Path="ProjectName.Tests/ProjectName.AdminService.IntegrationTests/ProjectName.AdminService.IntegrationTests.csproj" />
+    <Project Path="ProjectName.Tests/ProjectName.AdminService.Tests/ProjectName.AdminService.Tests.csproj" />
+  </Folder>
+  <Project Path="ProjectName.Shared\ProjectName.Shared.csproj" />
+</Solution>
